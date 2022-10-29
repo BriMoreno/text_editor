@@ -1,0 +1,33 @@
+{
+  "name": "text_editor",
+  "version": "1.0.0",
+  "description": "Your task is to build a text editor that runs in the browser",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriMoreno/text_editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/BriMoreno/text_editor/issues"
+  },
+  "homepage": "https://github.com/BriMoreno/text_editor#readme"
+}
