@@ -42,12 +42,20 @@ module.exports = () => {
           destination:path.join("assets", "icons"),
         }],
       }),
+      new InjectManifest({
+				swSrc: './src-sw.js',
+				swDest: 'service-worker.js',
+			}),
     ],
 
     module: {
       rules: [{
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
+    },
+    {
+      test: /\.(png|svg|jpg|jpeg|gif)$/i,
+      type: 'asset/resource',
     },
     {
       test: /\.m?js$/,
